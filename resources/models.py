@@ -5,13 +5,11 @@ from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import Mapped
 from sqlalchemy import String
 
-import cryptography
-
 class Base(DeclarativeBase):
-    
-    '''
+
+    """
         Class basis for mapping.
-    '''
+    """
     pass
 
 class Books(Base):
